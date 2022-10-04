@@ -1,0 +1,71 @@
+site_name: BSH数字系列NFT
+repo_url: https://github.com/nongyehezuoshe/bshn-docs
+repo_name: nongyehezuoshe/bshn-docs
+use_directory_urls: false
+theme:
+    name: material
+    language: en
+    palette:
+        scheme: chia
+    favicon: img/favicon.ico
+    logo: img/logo.webp
+    features:
+        - header.autohide
+        - navigation.instant
+        - navigation.tabs
+        - toc.follow
+        - navigation.top
+        - content.code.annotate
+extra:
+    social:
+        - icon: fontawesome/brands/github 
+          link: https://github.com/nongyehezuoshe/bshn
+          name: BSHN on Github
+        - icon: fontawesome/brands/twitter 
+          link: https://twitter.com/bshnumber
+          name: BSHN on Twitter
+    alternate:
+        - name: 中文
+          link: ./zh/
+          lang: zh
+        - name: English
+          link: ./en/ 
+          lang: en
+extra_css:
+    - stylesheets/extra.css
+markdown_extensions:
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - footnotes
+plugins:
+    - search:
+        lang: en
+    - i18n:
+        default_language: zh
+        material_alternate: true
+        languages:
+            zh: 中文
+            en:
+                name: English
+                site_name: BSH Number Series NFTs
+        nav_translations:
+            zh:
+                intro: 简介
+                buy: 销售
+                white: 白皮书
+            en:
+                intro: Introduction
+                buy: Sales
+                white: White paper
+
+nav:
+    - intro: 'index.md'
+    - buy: 'buy.md'
+    - white: 'whitepaper.md'
+
+copyright: '&copy; 2022 BSH Community'
