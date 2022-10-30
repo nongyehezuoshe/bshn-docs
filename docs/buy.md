@@ -11,9 +11,7 @@ BSHN仅支持通过社区的代币BSH[^1]从社区进行购买，而BSH可以通
 [^1]: BSH是十万哥社区（BSH Community）发行的代币，代码来自于Brother Shiwan。
 [^2]: dexie是Chia链的一个去中心化交易平台。
 
-BSHN的标准售价为10000BSH，目前由程序自动完成售卖，请将BSH打入以下地址，稍后你将收到相应数量的BSHN：
-
-**`xch1rd70g60z4evue390h9chjdsq9f6uqx79h397pf5l3h63r9twwf9q5lf0d9`**
+BSHN的标准售价为10000BSH，目前由程序自动完成售卖，将BSH打入特定地址，稍后你将收到相应数量的BSHN，转到[铸造页面](mint)开始铸造：
 
 !!! warning
 	社区不定期会推出优惠活动，具体售价可以关注我们的[twitter](https://twitter.com/brothershiwan)。

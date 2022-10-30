@@ -11,9 +11,7 @@ BSHN only supports purchase from the community through the community's token BSH
 [^1]: BSH is a token issued by the BSH Community, and the code comes from Brother Shiwan.
 [^2]: dexie is a decentralized trading platform of Chia chain.
 
-The standard selling price of BSHN is 10000BSH, which is currently sold automatically by the program. Please enter BSH into the following address, and you will receive the corresponding amount of BSHN later:
-
-**`xch1rd70g60z4evue390h9chjdsq9f6uqx79h397pf5l3h63r9twwf9q5lf0d9`**
+The standard selling price of BSHN is 10000BSH, which is currently sold automatically by the program. Put BSH into a specific address, and you will receive the corresponding amount of BSHN later. Go to the [Mint page](mint) to start minting.
 
 !!! warning
 	The community will launch special promotions from time to time, and you can follow our [twitter](https://twitter.com/brothershiwan) for specific prices.
